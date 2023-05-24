@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mi Portafolio - Julián Uribe Gómez</title>
+	<style>
+    /* Aquí iría el CSS */
+	/* Estilos generales */
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+		}
+
+		h1 {
+			font-size: 36px;
+			margin: 0;
+			margin-bottom: 20px;
+		}
+
+		h2 {
+			font-size: 24px;
+		}
+
+		h3 {
+			font-size: 18px;
+		}
+
+		h4 {
+			font-size: 16px;
+		}
+
+		ul {
+			list-style: none;
+			margin: 0;
+			padding: 0;
+		}
+
+		/* Estilos de la cabecera */
+		header {
+			background-color: #333;
+			color: #fff;
+			padding: 20px;
+			text-align: center;
+			margin-bottom: 20px;
+		}
+
+		header p{
+			text-align: center;
+		}
+
+		header img {
+			width: 150px;
+			height: 150px;
+			border-radius: 50%;
+			display: block;
+			margin: 0 auto;
+			margin-bottom: 20px;
+		}
+
+		nav ul {
+			display: flex;
+			justify-content: space-between;
+		}
+
+		nav li {
+			margin-right: 20px;
+		}
+
+		nav a {
+			color: #fff;
+			text-decoration: none;
+			font-weight: bold;
+		}
+
+		nav a:hover {
+			text-decoration: underline;
+		}
+
+		#prensa {
+			padding: 50px;
+			background-color: #eee;
+		}
+
+		#prensa li {
+			margin-bottom: 10px;
+		}
+
+		#prensa a {
+			color: #333;
+			text-decoration: none;
+		}
+
+		#prensa a:hover {
+			text-decoration: underline;
+		}
+
+		.video-container {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			/*height: 100vh;*/
+    	}
+
+		.container {
+			position: relative;
+  			display: flex;
+  			align-items: center;
+		}
+
+		.side-image {     		
+			position: absolute;
+  			top: 0;
+  			right: 0;
+  			width: 500px;
+  			margin-left: 20px;
+			margin-right: 50px;
+		}
+
+		/* Estilos del pie de página */
+		footer {
+			background-color: #333;
+			color: #fff;
+			padding: 20px;
+			text-align: center;
+		}
+  	</style>
+  </head>
+  <body>
+    <header>
+		<img src="https://images.unsplash.com/photo-1523995462485-3d171b5c8fa9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80" alt="Logo de mi portafolio">
+      <h1>Julián Uribe Gómez</h1>
+	  <p>Ingeniero, analista y cientifico de datos 🤓. Apasionado por los datos 🔥 y la inteligencia artificial 🤖. Profesor universitario.</p>
+      <nav>
+        <ul>
+            <li><a href="index.html">Acerca de mí</a></li>
+            <li><a href="index.html">Proyectos</a></li>
+            <li><a href="prensa.html">Prensa y medios</a></li>
+            <li><a href="articulos.html">Artículos y libros</a></li>
+            <li><a href="blogs.html">Blogs</a></li>
+			<li><a href="podcast.html">Podcast</a></li>
+            <li><a href="index.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+    
+    <section id="prensa">
+      <h2>Prensa y medios</h2>
+      <ul>
+		<h3>Notas en Prensa</h3>
+		<div class="container">
+			<p>
+				<img id="dynamic-image" src="1.jpeg" alt="Imagen" class="side-image">
+			</p>	
+		</div>
+		<h4>¿Y donde están los ladrones? Analítica del hurto de Carros y Motos en Medellín</h4>
+		<li><a href="https://www.elcolombiano.com/antioquia/dias-y-horas-en-que-mas-roban-carros-y-motos-en-medellin-KN18157629">¡Miércoles! El día que más roban carros en Medellín</a></li>	
+		<li><a href="https://www.eltiempo.com/colombia/medellin/medellin-estudio-muestra-como-se-roban-los-carros-y-las-motos-696068">Así se roban los carros y las motos en Medellín, según estudio</a></li>
+		<li><a href="https://www.bluradio.com/blu360/antioquia/investigacion-determino-dias-y-perfil-de-las-personas-a-las-que-mas-les-roban-vehiculos-en-medellin-rg10">Investigación determinó días y perfil de las personas a las que más les roban vehículos en Medellín</a></li>
+		<li><a href="https://gente.com.co/marcas-de-carros-mas-robados-en-barrio-laureles-de-medelllin/">Estas son las marcas de los carros más robados en Laureles</a></li>
+		<h4>¿Y donde están los ladrones? Analítica del hurto a personas en Medellín</h4>
+		<li><a href="https://gente.com.co/laureles-el-segundo-barrio-donde-mas-roban-en-medellin/">Van más de 2.000 robos a personas en Laureles</a></li>
+		<li><a href="https://www.elcolombiano.com/antioquia/los-viernes-y-sabados-es-mas-factible-que-lo-roben-en-medellin-EF18480756">Cuidado: viernes y sábados son los días en los que más roban en Medellín</a></li>
+		<li><a href="https://www.alertapaisa.com/noticias/valle-de-aburra/viernes-y-sabados-los-dias-con-mayor-numero-de-hurtos-en-medellin">Viernes y sábados, los días con mayor número de hurtos en Medellín</a></li>
+		<li><a href="https://www.infobae.com/america/colombia/2022/08/24/los-dias-y-las-horas-en-que-mas-roban-en-medellin/">Los días y las horas en que más roban en Medellín</a></li>
+		<li><a href="https://www.infobae.com/america/colombia/2022/08/01/intento-de-atraco-a-influenciador-en-medellin-dejo-un-asaltante-muerto-y-otras-dos-personas-heridas/">Intento de atraco a influenciador en Medellín dejó un asaltante muerto y otras dos personas heridas</a></li>
+		<li><a href="https://www.qhubomedellin.com/ultimas-noticias/judicial/cuales-son-los-dias-que-prefieren-los-pillos-para-los-robos/">¿Cuáles son los días que prefieren los pillos para los robos?</a></li>
+		<li><a href="https://www.infobae.com/america/colombia/2022/07/31/atracaron-al-mismo-tiempo-trece-locales-de-venta-de-chance-en-medellin/">Atracaron al mismo tiempo trece locales de venta de chance en Medellín</a></li>
+		<h4>Análisis sobre la violencia intrafamiliar en Medellín</h4>
+		<li><a href="https://telemedellin.tv/alerta-incremento-de-violencias-a-la-mujer/616813/">Alerta por incremento de violencias contra la mujer</a></li>
+		<li><a href="https://www.elcolombiano.com/medellin/aumenta-cifra-de-violencia-contra-las-mujeres-en-medellin-FL20812315">Preocupante cifra: violencia contra las mujeres en Medellín aumentó 43 %</a></li>
+		<li><a href="https://alponiente.com/en-el-ultimo-lustro-se-ha-incrementado-la-violencia-contra-la-pareja-sentimental-en-medellin-y-colombia/">En el último lustro se ha incrementado la violencia contra la pareja sentimental en Medellín y Colombia</a></li>
+		<li><a href="https://antioquiainforma.com/se-ha-registrado-incrementado-la-violencia-contra-la-pareja-sentimental-en-medellin-y-colombia-investigacion-del-itm/">Se registra incremento en la violencia contra la pareja sentimental en Medellín y Colombia: investigación del ITM</a></li>
+		<li><a href="https://www.minuto30.com/violencia-contra-la-pareja-colombia-itm/1422503/?utm_term=Autofeed&utm_medium=Social&utm_source=Twitter#Echobox=1679676119">¿En el último lustro se ha incrementado la violencia contra la pareja sentimental en Colombia?</a></li>
+		<h4>Análisis sobre la violencia contra niños, niñas y adolescentes en Medellín y Colombia</h4>
+		<li><a href="https://www.h13n.com/violencia-contra-menores-crecio-en-antioquia/182616/">Violencia contra menores creció un 68% en Antioquia</a></li>
+		<li><a href="https://telemedellin.tv/aumento-violencia-contra-nna-en-medellin/628463/">Alerta por aumento de violencia contra NNA en Medellín y Antioquia</a></li>
+		<li><a href="https://colombianews.info/colombia/andina/antioquia/alerta-por-aumento-de-violencia-contra-nna-en-medellin-y-antioquia/">Alerta por aumento de violencia contra NNA en Medellín y Antioquia</a></li>
+		<h3>Videos</h3>
+		<div class="video-container">
+			<h4>¿Y donde están los ladrones? Analítica del hurto de Carros y Motos en Medellín</h4>
+			<br>
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/2sviffA51Tk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+			<br>
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/EA9Wyvx31LQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+			<br>
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/6MOJOPUWtJM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+			<br>
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/1szQnlBIl2k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+			<br>
+			<h4>¿Y donde están los ladrones? Analítica del hurto a personas en Medellín</h4>
+			<br>
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/9b8ZJrTsaWg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+			<br>
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/RPy5WpP12HY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+			<br>
+			<h4>Análisis sobre la violencia intrafamiliar en Medellín</h4>
+			<br>
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/AN4vOu_UlOE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+			<br>
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/atN7xTOKgYU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+			<br>
+			<h4>Análisis sobre la violencia contra niños, niñas y adolescentes en Medellín y Colombia</h4>
+			<br>
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/Et_kL1r4-7o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+			<br>
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/x47tde4Ij2g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+			<br>
+		</div>
+	  </ul>
+	</section>
+        
+    <footer>
+      <p>Derechos de autor © 2023 Julian Uribe. Todos los derechos reservados.</p>
+    </footer>
+
+	<script src="script.js"></script>
+  </body>
+</html>

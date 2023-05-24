@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mi Portafolio - Julián Uribe Gómez</title>
+	<style>
+    /* Aquí iría el CSS */
+	/* Estilos generales */
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+		}
+
+		h1 {
+			font-size: 36px;
+			margin: 0;
+			margin-bottom: 20px;
+		}
+
+		h2 {
+			font-size: 24px;
+		}
+
+        h3 {
+			font-size: 18px;
+		}
+
+		ul {
+			list-style: none;
+			margin: 0;
+			padding: 0;
+		}
+
+		/* Estilos de la cabecera */
+		header {
+			background-color: #333;
+			color: #fff;
+			padding: 20px;
+			text-align: center;
+			margin-bottom: 20px;
+		}
+
+		header p{
+			text-align: center;
+		}
+
+        p{
+			text-align: center;
+		}
+
+		header img {
+			width: 150px;
+			height: 150px;
+			border-radius: 50%;
+			display: block;
+			margin: 0 auto;
+			margin-bottom: 20px;
+		}
+
+		nav ul {
+			display: flex;
+			justify-content: space-between;
+		}
+
+		nav li {
+			margin-right: 20px;
+		}
+
+		nav a {
+			color: #fff;
+			text-decoration: none;
+			font-weight: bold;
+		}
+
+		nav a:hover {
+			text-decoration: underline;
+		}
+
+		#podcast {
+			padding: 50px;
+			background-color: #eee;
+		}
+
+		#podcast li {
+			margin-bottom: 10px;
+		}
+
+		#podcast a {
+			color: #333;
+			text-decoration: none;
+		}
+
+		#podcast a:hover {
+			text-decoration: underline;
+		}
+
+		.video-container {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			/*height: 100vh;*/
+    	}
+
+		/* Estilos del pie de página */
+		footer {
+			background-color: #333;
+			color: #fff;
+			padding: 20px;
+			text-align: center;
+		}
+  	</style>
+  </head>
+  <body>
+    <header>
+		<img src="https://images.unsplash.com/photo-1581547848545-a75a2634ba23?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80" alt="Logo de mi portafolio">
+      <h1>Julián Uribe Gómez</h1>
+	  <p>Ingeniero, analista y cientifico de datos 🤓. Apasionado por los datos 🔥 y la inteligencia artificial 🤖. Profesor universitario.</p>
+      <nav>
+        <ul>
+            <li><a href="index.html">Acerca de mí</a></li>
+            <li><a href="index.html">Proyectos</a></li>
+            <li><a href="prensa.html">Prensa y medios</a></li>
+            <li><a href="articulos.html">Artículos y libros</a></li>
+            <li><a href="blogs.html">Blogs</a></li>
+			<li><a href="podcast.html">Podcast</a></li>
+            <li><a href="index.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+    
+    <section id="podcast">
+      <h2>Participación en Podcast</h2>
+      <ul>
+		<h3>Videos Youtube</h3>
+		<div class="video-container">
+            <p>Invitación del departamento de bibliotecas ITM para hablar en el podcast Ciencia y Cultura sobre temas de seguridad, incidentes viales y TIC en Medellín analizados desde la Big Data.</p>
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/HvMi5RpHHnY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+			<br>
+            <p>Invitación del área de comunicaciones ITM para hablar en el podcast Ciencia al Dente sobre el proyecto ¿Y donde están los ladrones? Analítica sobre el hurto de carros, motos y personas en Medellín</p>
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/rgebrPG0DzU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+			<br>
+		</div>
+	  </ul>
+	</section>
+        
+    <footer>
+      <p>Derechos de autor © 2023 Julian Uribe. Todos los derechos reservados.</p>
+    </footer>
+  </body>
+</html>
